@@ -6,6 +6,7 @@ import {getPage} from '../editor/storyApi';
 import {useStoryDispatch} from '../editor/storyContext';
 import Accordion from './accordion';
 import {storyStyle} from '../styles/storyStyle';
+import {pageIndexStyle} from '../styles/pageIndexStyle';
 
 export default function CurrentStoryList() {
   const pagestate = usePageState();
@@ -43,7 +44,9 @@ export default function CurrentStoryList() {
           //   <Text>story</Text>
           // </View>
           <View>
-            <Text>no story</Text>
+            <Text style={pageIndexStyle.pageIndexNumber}>
+              wait for 3 seconds.. 3초만 기다려주세요..
+            </Text>
           </View>
         )}
       </View>

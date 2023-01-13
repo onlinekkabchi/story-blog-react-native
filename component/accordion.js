@@ -1,5 +1,5 @@
-import {useEffect, useRef, useState} from 'react';
-import {Animated, TouchableOpacity, View, Text} from 'react-native';
+import {useRef} from 'react';
+import {Animated, TouchableOpacity, Text} from 'react-native';
 import {storyStyle} from '../styles/storyStyle';
 
 export default function Accordion(props) {

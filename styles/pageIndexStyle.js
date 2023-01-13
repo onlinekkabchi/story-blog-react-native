@@ -6,15 +6,13 @@ export const pageIndexStyle = StyleSheet.create({
     flexDirection: 'row-reverse',
   },
   pageIndexContainer: {
-    backgroundColor: '#000000',
-    color: '#ffffff',
     flex: 1,
     borderRadius: 10,
     marginTop: 5,
     marginBottom: 5,
   },
   pageIndexNumber: {
-    color: '#ffffff',
+    color: '#000000',
     fontSize: 20,
     fontWeight: '500',
   },
