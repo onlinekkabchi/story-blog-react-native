@@ -12,7 +12,7 @@ export const pageIndexStyle = StyleSheet.create({
     marginBottom: 5,
   },
   pageIndexNumber: {
-    color: '#000000',
+    color: '#ffffff',
     fontSize: 20,
     fontWeight: '500',
   },

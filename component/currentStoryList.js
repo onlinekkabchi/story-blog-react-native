@@ -1,12 +1,11 @@
-import {useEffect, useState} from 'react';
+import {useEffect} from 'react';
 import {ScrollView, View, Text, Button} from 'react-native';
 import {usePageState} from '../editor/pageContext';
 import {useStoryState} from '../editor/storyContext';
 import {getPage} from '../editor/storyApi';
 import {useStoryDispatch} from '../editor/storyContext';
 import Accordion from './accordion';
-import {storyStyle} from '../styles/storyStyle';
-import {pageIndexStyle} from '../styles/pageIndexStyle';
+import {headerStyle} from '../styles/headerStyle';
 
 export default function CurrentStoryList() {
   const pagestate = usePageState();
@@ -44,7 +43,7 @@ export default function CurrentStoryList() {
           //   <Text>story</Text>
           // </View>
           <View>
-            <Text style={pageIndexStyle.pageIndexNumber}>
+            <Text style={headerStyle.contactTitle}>
               wait for 3 seconds.. 3초만 기다려주세요..
             </Text>
           </View>

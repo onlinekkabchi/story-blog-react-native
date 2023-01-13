@@ -17,7 +17,7 @@ export async function createPageIndex(dispatch) {
   )
     .then(res => res.json())
     .then(res => parseInt(res))
-    .then(res => parseInt(res / 10))
+    .then(res => parseInt(res / 10) + 1)
     .then(res => dispatch({type: 'SET_PAGE_INDEX', index: res}))
     .catch(err => alert('index error! : ' + err));
 

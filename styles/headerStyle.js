@@ -5,6 +5,7 @@ export const headerStyle = StyleSheet.create({
     backgroundColor: '#000000',
     marginTop: 20,
     padding: 20,
+    height: 120,
   },
   headerTitle: {
     color: '#ffffff',
@@ -22,7 +23,7 @@ export const headerStyle = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#808080',
     width: 60,
-    height: 30,
+    height: 20,
     borderRadius: 10,
     marginTop: 10,
   },
